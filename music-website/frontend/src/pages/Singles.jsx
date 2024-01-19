@@ -23,6 +23,7 @@ import SinglePic17 from "../pictures/SinglePic17.jpg";
 import SinglePic20 from "../pictures/SinglePic20.jpg";
 // import SinglePic21 from "../pictures/SinglePic21.jpg";
 import SinglePic22 from "../pictures/SinglePic22.jpg";
+import SinglePic23 from "../pictures/SinglePic23.jpg";
 
 import SingleVid from "../pictures/SingleVid.mp4";
 import SingleVid2 from "../pictures/SingleVid2.mp4";
@@ -78,6 +79,11 @@ const Singles = () => {
       src: SinglePic10,
       link: "https://open.spotify.com/track/2bgsDGUSEeXb7fNfX73UCP?si=77ff081031c34e07",
       text: "WAP (Remix)",
+    },
+    {
+      src: SinglePic23,
+      link: "https://open.spotify.com/track/5jB0yIDJzwFmYXAPctSR6z?si=aba15fdd8b28469c",
+      text: "Và Thế Giới Đã Mất Đi Một Người Cô Đơn (Cover)",
     },
   ];
 
@@ -254,7 +260,7 @@ const Singles = () => {
             opacity: 0.8,
           }}></div>
 
-        <div className="grid grid-cols-2 gap-48 w-3/5 h-3/5 z-10 relative">
+        <div className="grid grid-cols-3 gap-24 w-[70%] h-4/5 z-10 relative">
           {newImages.map((image, index) => (
             <a
               href={image.link}
@@ -347,7 +353,7 @@ const Singles = () => {
           {/* Cell 1 & 7: Video 1 */}
           <div className="col-start-1 row-start-1 row-span-2 col-span-1 mt-24">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-4/5 object-cover"
               loop
               controls
               onClick={(event) => {
@@ -360,12 +366,13 @@ const Singles = () => {
               <source src={SingleVid} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">hello</div>
           </div>
 
           {/* Cell 2 & 8: Video 2 */}
           <div className="col-start-2 row-start-1 row-span-2 col-span-1 mb-24">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-4/5 object-cover"
               loop
               controls
               onClick={(event) => {
@@ -378,12 +385,13 @@ const Singles = () => {
               <source src={SingleVid2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">Club Banger</div>
           </div>
 
           {/* Cell 9 & 15: Video 3 */}
           <div className="col-start-3 row-start-2 row-span-2 col-span-1 mb-12 mt-12">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-4/5 object-cover"
               loop
               controls
               onClick={(event) => {
@@ -396,12 +404,13 @@ const Singles = () => {
               <source src={SingleVid} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">HI</div>
           </div>
 
           {/* Cell 10 & 16: Video 4 */}
           <div className="col-start-4 row-start-2 row-span-2 col-span-1 mb-12 mt-12">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-4/5 object-cover"
               loop
               controls
               onClick={(event) => {
@@ -414,12 +423,13 @@ const Singles = () => {
               <source src={SingleVid5} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">Trap</div>
           </div>
 
           {/* Cell 5 & 11: Video 5 */}
           <div className="col-start-5 row-start-1 row-span-2 col-span-1 mb-24">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-4/5 object-cover"
               loop
               controls
               onClick={(event) => {
@@ -432,12 +442,13 @@ const Singles = () => {
               <source src={SingleVid4} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">Drill</div>
           </div>
 
           {/* Cell 6 & 12: Video 6 */}
           <div className="col-start-6 row-start-1 row-span-2 col-span-1 mt-24">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-4/5 object-cover"
               loop
               controls
               onClick={(event) => {
@@ -450,6 +461,7 @@ const Singles = () => {
               <source src={SingleVid3} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">Club Beat</div>
           </div>
 
           {/* Cell 13 & 14: Video 7 */}
@@ -468,6 +480,7 @@ const Singles = () => {
               <source src={SingleVid7} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">WAP Remix</div>
           </div>
 
           {/* Cell 3 & 4: Video 8 */}
@@ -486,6 +499,7 @@ const Singles = () => {
               <source src={SingleVid6} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">Beatbox Drill Beat</div>
           </div>
 
           {/* Cell 17 & 18: Video 9 */}
@@ -504,6 +518,7 @@ const Singles = () => {
               <source src={SingleVid8} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="bg-black text-white text-center">Trap #2</div>
           </div>
         </div>
       </div>
@@ -520,6 +535,8 @@ const Singles = () => {
           }
         `}
       </style>
+
+      
       <ScrollToTopButton />
     </PageContainer>
   );

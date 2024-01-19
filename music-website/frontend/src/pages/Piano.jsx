@@ -185,8 +185,8 @@ const Piano = () => {
           style={{ backgroundImage: `url(${PianoPic6})` }}></div>
 
         <div className="grid grid-cols-3 grid-rows-3 gap-4 w-full h-auto md:h-screen bg-black px-4 py-8">
-          {/* First Video */}
-          <div className="col-start-1 col-span-1 row-start-1 row-span-3 relative flex items-center justify-center mx-4 sm:mx-8 md:mx-4 my-8">
+          {/* First Video and Text */}
+          <div className="col-start-1 col-span-1 row-start-1 row-span-3 relative mx-4 sm:mx-8 md:mx-4 my-8">
             <video
               ref={videoRef1}
               src={PianoVid10}
@@ -195,15 +195,13 @@ const Piano = () => {
               onClick={handleVideoClick}
               onMouseMove={handleVideoHover}
               onMouseLeave={handleVideoLeave}></video>
+            <div className="absolute top-0 left-0 right-0 bg-black text-white text-2xl opacity-95 flex items-center justify-center h-[8%] w-full">
+              I'm not the only one - Sam Smith
+            </div>
           </div>
 
-          {/* Text for 2 with right margin */}
-          <div className="col-start-2 col-span-1 row-start-1 row-span-1 bg-white text-black text-2xl opacity-95 flex items-center justify-center mt-12 h-1/4 w-[85%]">
-            I'm not the only one - Sam Smith
-          </div>
-
-          {/* Second Video */}
-          <div className="col-start-3 col-span-1 row-start-1 row-span-3 relative flex items-center justify-center mx-4 sm:mx-8 md:mx-4 my-8">
+          {/* Second Video and Text */}
+          <div className="col-start-3 col-span-1 row-start-1 row-span-3 relative mx-4 sm:mx-8 md:mx-4 my-8">
             <video
               ref={videoRef2}
               src={PianoVid9}
@@ -213,11 +211,9 @@ const Piano = () => {
               onClick={handleVideoClick}
               onMouseMove={handleVideoHover}
               onMouseLeave={handleVideoLeave}></video>
-          </div>
-
-          {/* Text for 8 with left margin */}
-          <div className="col-start-2 col-span-1 row-start-3 row-span-1 bg-white text-black text-2xl opacity-95 flex items-center justify-center ml-20 mb-12 h-1/4 w-[85%]">
-            All I ask - Adele
+            <div className="absolute top-0 left-0 right-0 bg-black text-white text-2xl opacity-95 flex items-center justify-center h-[8%] w-full">
+              All I ask - Adele
+            </div>
           </div>
         </div>
       </div>
@@ -241,7 +237,7 @@ const Piano = () => {
         <div
           className="absolute top-0 left-0 w-full h-full bg-cover opacity-80"
           style={{ backgroundImage: `url(${PianoPic9})` }}></div>
-        <div className="relative z-10 w-[27%] h-[83%] mb-36 mt-24">
+        <div className="relative z-10 w-[27%] h-[75%] mb-36 mt-24">
           <video
             ref={videoRef}
             src={PianoVid8}
