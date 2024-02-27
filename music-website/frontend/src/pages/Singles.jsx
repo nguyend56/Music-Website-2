@@ -427,7 +427,7 @@ const Singles = () => {
             {/* Cell 1 & 7: Video 1 */}
             <div className="col-start-1 row-start-1 row-span-2 col-span-1 mt-24">
               <video
-                className="w-full h-4/5 object-cover"
+                className="w-full h-4/5 object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -446,7 +446,7 @@ const Singles = () => {
             {/* Cell 2 & 8: Video 2 */}
             <div className="col-start-2 row-start-1 row-span-2 col-span-1 mb-24">
               <video
-                className="w-full h-4/5 object-cover"
+                className="w-full h-4/5 object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -465,7 +465,7 @@ const Singles = () => {
             {/* Cell 9 & 15: Video 3 */}
             <div className="col-start-3 row-start-2 row-span-2 col-span-1 mb-12 mt-12">
               <video
-                className="w-full h-4/5 object-cover"
+                className="w-full h-4/5 object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -484,7 +484,7 @@ const Singles = () => {
             {/* Cell 10 & 16: Video 4 */}
             <div className="col-start-4 row-start-2 row-span-2 col-span-1 mb-12 mt-12">
               <video
-                className="w-full h-4/5 object-cover"
+                className="w-full h-4/5 object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -503,7 +503,7 @@ const Singles = () => {
             {/* Cell 5 & 11: Video 5 */}
             <div className="col-start-5 row-start-1 row-span-2 col-span-1 mb-24">
               <video
-                className="w-full h-4/5 object-cover"
+                className="w-full h-4/5 object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -524,7 +524,7 @@ const Singles = () => {
             {/* Cell 6 & 12: Video 6 */}
             <div className="col-start-6 row-start-1 row-span-2 col-span-1 mt-24">
               <video
-                className="w-full h-4/5 object-cover"
+                className="w-full h-4/5 object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -543,7 +543,7 @@ const Singles = () => {
             {/* Cell 13 & 14: Video 7 */}
             <div className="col-start-1 row-start-3 col-span-2 mr-8 ml-8">
               <video
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -562,7 +562,7 @@ const Singles = () => {
             {/* Cell 3 & 4: Video 8 */}
             <div className="col-start-3 row-start-1 col-span-2 mr-8 ml-8">
               <video
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
@@ -583,7 +583,7 @@ const Singles = () => {
             {/* Cell 17 & 18: Video 9 */}
             <div className="col-start-5 row-start-3 col-span-2 mr-8 ml-8">
               <video
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover rounded-lg"
                 loop
                 controls
                 onClick={(event) => {
