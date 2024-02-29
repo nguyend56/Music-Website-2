@@ -615,7 +615,15 @@ const Singles = () => {
         `}
       </style>
 
-      <ScrollToTopButton />
+      <div
+        style={{
+          zIndex: 9999,
+          position: "fixed",
+          right: "20px",
+          bottom: "20px",
+        }}>
+        <ScrollToTopButton />
+      </div>
     </PageContainer>
   );
 };
